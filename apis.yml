@@ -1,7 +1,26 @@
 aid: kno
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kno.png
 name: KNO
-description: KNO is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Kno, Inc. was a digital textbook and student learning platform founded in May 2009 in Santa
+  Clara, California by CEO Osman Rashid (co-founder of Chegg) and CTO Babur Habib. Kno began as a dual-screen
+  tablet built for students, abandoned hardware in 2011, and pivoted to eTextbook software delivered across
+  iPad, Android, Windows and the web in partnership with textbook publishers. The company raised roughly
+  $93 million from Andreessen Horowitz, Intel Capital, Goldman Sachs, FLOODGATE, First Round Capital, SV
+  Angel, Advance Publications and GSV Capital before being acquired by Intel in November 2013 for approximately
+  $15 million and rebranded as Intel Education Study, which has itself since been discontinued. As of enrichment
+  the kno.com domain is parked and redirects to a third-party domain brokerage, and the provider exposes
+  no public API, developer portal, documentation, SDK, or other artifact surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/kno/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,37 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Intel
+x-acquired-date: '2013-11'
+x-api-surface: none
+x-founded: '2009-05'
+x-headquarters: Santa Clara, California, United States
+x-reference: https://en.wikipedia.org/wiki/Kno
+x-source-list: https://a16z.com/investment-list/
+x-domain-status: 'kno.com HTTP 200 -> redirects to https://www.gritbrokerage.com/inquiry (domain broker
+  parking page, no longer operated by the company)'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- EdTech
+- Digital Textbooks
+- E-Books
+- Learning Platform
+- Publishing
+- Consumer
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
