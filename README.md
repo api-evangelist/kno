@@ -64,10 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kno, Inc. was a digital textbook and student learning platform founded in May 2009 in Santa Clara, California by Osman Rashid (co-founder of Chegg) and Babur Habib. It started as a dual-screen student tablet, dropped hardware in 2011, and pivoted to eTextbook software across iPad, Android, Windows and the web.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: a16z (also Intel Capital, Goldman Sachs, FLOODGATE, First Round Capital, SV Angel, Advance Publications, GSV Capital) — roughly $93M raised.
+Kno, Inc. was a digital textbook and student learning platform founded in May 2009 in Santa Clara, California by CEO Osman Rashid (co-founder of Chegg) and CTO Babur Habib. Kno began as a dual-screen tablet built for students, abandoned hardware in 2011, and pivoted to eTextbook software delivered across iPad, Android, Windows and the web in partnership with textbook publishers. The company raised roughly $93 million from Andreessen Horowitz, Intel Capital, Goldman Sachs, FLOODGATE, First Round Capital, SV Angel, Advance Publications and GSV Capital before being acquired by Intel in November 2013 for approximately $15 million and rebranded as Intel Education Study, which has itself since been discontinued. As of enrichment the kno.com domain is parked and redirects to a third-party domain brokerage, and the provider exposes no public API, developer portal, documentation, SDK, or other artifact surface to enrich.
 
-Acquired by Intel in November 2013 for approximately $15M and rebranded as Intel Education Study, which has since been discontinued.
+**Areas:** Company · Education · EdTech · Digital Textbooks · Ebooks · Learning Platform · Publishing · Consumer · Defunct
 
-Enrichment status: no API surface. The kno.com domain is parked and redirects to a third-party domain brokerage; there is no developer portal, documentation, SDK, or other artifact surface to enrich.
+## KNO on APIs.io (historical record)
+
+Everything profiled for KNO is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kno/](https://apis.io/providers/kno/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for KNO: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kno/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
